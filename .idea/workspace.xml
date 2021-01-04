@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="42d03a5e-5af6-45e8-8667-1d094bc98e64" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="ProjectId" id="1kPND1Nq1E47s7RLV3f1B4l0GNe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build awesomeProject/src/main">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build awesomeProject" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build awesomeProject/src/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/main/hello.go" />
+      <package value="awesomeProject/src/main" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build awesomeProject" />
+      <item itemvalue="Go Build.go build awesomeProject/src/main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build awesomeProject/src/main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42d03a5e-5af6-45e8-8667-1d094bc98e64" name="Default Changelist" comment="" />
+      <created>1605598158166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605598158166</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="169" y="50" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609156745051">
+      <screen x="0" y="23" width="1280" height="711" />
+    </state>
+    <state x="169" y="50" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.711@0.23.1280.711" timestamp="1609156745051" />
+    <state width="1238" height="176" key="GridCell.Tab.0.bottom" timestamp="1609755983814">
+      <screen x="0" y="23" width="1280" height="711" />
+    </state>
+    <state width="1238" height="176" key="GridCell.Tab.0.bottom/0.23.1280.711@0.23.1280.711" timestamp="1609755983814" />
+    <state width="1238" height="176" key="GridCell.Tab.0.center" timestamp="1609755983813">
+      <screen x="0" y="23" width="1280" height="711" />
+    </state>
+    <state width="1238" height="176" key="GridCell.Tab.0.center/0.23.1280.711@0.23.1280.711" timestamp="1609755983813" />
+    <state width="1238" height="176" key="GridCell.Tab.0.left" timestamp="1609755983812">
+      <screen x="0" y="23" width="1280" height="711" />
+    </state>
+    <state width="1238" height="176" key="GridCell.Tab.0.left/0.23.1280.711@0.23.1280.711" timestamp="1609755983812" />
+    <state width="1238" height="176" key="GridCell.Tab.0.right" timestamp="1609755983813">
+      <screen x="0" y="23" width="1280" height="711" />
+    </state>
+    <state width="1238" height="176" key="GridCell.Tab.0.right/0.23.1280.711@0.23.1280.711" timestamp="1609755983813" />
+    <state x="83" y="23" width="982" height="711" key="SettingsEditor" timestamp="1609766561827">
+      <screen x="0" y="23" width="1280" height="711" />
+    </state>
+    <state x="83" y="23" width="982" height="711" key="SettingsEditor/0.23.1280.711@0.23.1280.711" timestamp="1609766561827" />
+    <state x="499" y="276" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1609155857262">
+      <screen x="0" y="23" width="1280" height="711" />
+    </state>
+    <state x="499" y="276" key="com.goide.refactor.move.GoMoveDeclarationDialog/0.23.1280.711@0.23.1280.711" timestamp="1609155857262" />
+  </component>
+</project>
