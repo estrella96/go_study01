@@ -139,3 +139,15 @@ import . "fmt"
         var b int
         b=int(a)
         c:=int(a)`
+        
+## 2 web
+
+### 2.1 表单 web.go
+
+- 表单 Form
+    客户端提交数据到服务器
+    get post
+- 文件上传
+    上传表单
+    获取上传的文件数据
+    文件保存
