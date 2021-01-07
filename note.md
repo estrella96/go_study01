@@ -2,7 +2,7 @@
 
 ## 1 基础知识
 
-### 1.1 语法
+### 1.1 关键字
 
 - 关键字 小写
     break
@@ -72,7 +72,7 @@ import . "fmt"
 5. int16/uint16
     - 2字节
     - -32768~32767 0-65535
-6. int32/uint32
+6. int32/uint32 rune-int32(Unicode编码)
     - 4字节
 7. int64/uint64
     - 8字节
@@ -84,12 +84,12 @@ import . "fmt"
 10. uintptr 指针类型
     保存指针的32或64位整型
 11. 其他
-    数组 array
+    数组 array `var ipv4 [4]uint8=[4]uint8{192,168,0,1}`
     结构 struct
     字符串 string
 12. 引用类型 非传统引用
-    切片 slice
-    类哈希表 map
+    切片 slice 对数组的包装
+    类哈希表 map `var ipSwitches=map[String]bool{}  //string,bool`
     管道 chan
 13. 接口型 interface
 14. 函数型 func
@@ -139,7 +139,97 @@ import . "fmt"
         var b int
         b=int(a)
         c:=int(a)`
-        
+   
+### 1.5 操作符
+    ||
+    &&
+    ==
+    !=
+    |
+    ^
+    %
+    << >>
+    <- 接收操作
+  
+### 1.6 流程控制
+
+- if
+    if...else if...else
+- switch
+- for
+- defer
+    延迟调用指定的函数
+    defer 调用函数的表达式
+    外围函数语句正常执行完毕 延迟函数都执行完毕外围函数才结束
+    延迟函数执行完毕 外围函数才return
+    延迟函数中使用外部变量需要参数引入
+    多个延迟函数调用的执行顺序与defer语句顺序相反 底层是栈
+- panic和recover
+    1. panic
+        报告运行期间的致命错误
+        停止当前的控制流程并引发一个运行时恐慌
+    2. recover
+        拦截运行时恐慌的内建函数
+        使当前程序从恐慌状态中恢复并重新获得流程控制权
+        返回一个interface{}类型的结果 
+
+```go
+package main
+import (
+	"errors"
+"fmt"
+)
+func main() {
+    
+	//recover 
+    defer func(){
+        if p:=recover();p!=nil{
+            fmt.Printf("Recovered panic: %s\n",p)
+        }
+    }()
+
+	//go run hello.go
+	var number int
+    if 100<number{
+        number++
+    } else{
+        number--
+    }
+
+    switch number{
+    default:
+        fmt.Println("unknown")
+    case 1:
+        fmt.Println("hello")
+    case 2,3,4:
+        fmt.Println("www")
+    }
+    
+    for i:=0;i<100;i++{
+        number++
+    }
+    
+    ints :=[]int{1,2,3,4,5}
+    for i,d :=range ints{
+        fmt.Printf("Index: %d, Value :%d\n",i,d)
+    }
+    
+	//panic函数
+    outerFunc()
+
+
+}
+
+func outerFunc(){
+    innerFunc()
+}
+
+func innerFunc(){
+    panic(errors.New("An intended fatal error!"))}
+```
+
+
+   
 ## 2 web
 
 ### 2.1 表单 web.go
@@ -151,3 +241,8 @@ import . "fmt"
     上传表单
     获取上传的文件数据
     文件保存
+ 
+ 
+## 3 并发编程
+
+### 3.1  

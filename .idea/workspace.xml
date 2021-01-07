@@ -22,12 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d03a5e-5af6-45e8-8667-1d094bc98e64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/index.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/web.go" afterDir="false" />
+    <list default="true" id="42d03a5e-5af6-45e8-8667-1d094bc98e64" name="Default Changelist" comment="web+file upload">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/hello.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +115,14 @@
       <option name="presentableId" value="Default" />
       <updated>1605598158166</updated>
     </task>
+    <task id="LOCAL-00001" summary="web+file upload">
+      <created>1609849742462</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609849742462</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +138,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="web+file upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="web+file upload" />
   </component>
   <component name="WindowStateProjectService">
     <state x="167" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609837099132">
@@ -151,26 +161,30 @@
       <screen x="0" y="23" width="1280" height="711" />
     </state>
     <state x="454" y="92" key="Github.UntrackedFilesDialog/0.23.1280.711@0.23.1280.711" timestamp="1609766661450" />
-    <state width="1238" height="176" key="GridCell.Tab.0.bottom" timestamp="1609837779999">
+    <state width="1238" height="176" key="GridCell.Tab.0.bottom" timestamp="1609853864820">
       <screen x="0" y="23" width="1280" height="711" />
     </state>
-    <state width="1238" height="176" key="GridCell.Tab.0.bottom/0.23.1280.711@0.23.1280.711" timestamp="1609837779999" />
-    <state width="1238" height="176" key="GridCell.Tab.0.center" timestamp="1609837779998">
+    <state width="1238" height="176" key="GridCell.Tab.0.bottom/0.23.1280.711@0.23.1280.711" timestamp="1609853864820" />
+    <state width="1238" height="176" key="GridCell.Tab.0.center" timestamp="1609853864819">
       <screen x="0" y="23" width="1280" height="711" />
     </state>
-    <state width="1238" height="176" key="GridCell.Tab.0.center/0.23.1280.711@0.23.1280.711" timestamp="1609837779998" />
-    <state width="1238" height="176" key="GridCell.Tab.0.left" timestamp="1609837779998">
+    <state width="1238" height="176" key="GridCell.Tab.0.center/0.23.1280.711@0.23.1280.711" timestamp="1609853864819" />
+    <state width="1238" height="176" key="GridCell.Tab.0.left" timestamp="1609853864818">
       <screen x="0" y="23" width="1280" height="711" />
     </state>
-    <state width="1238" height="176" key="GridCell.Tab.0.left/0.23.1280.711@0.23.1280.711" timestamp="1609837779998" />
-    <state width="1238" height="176" key="GridCell.Tab.0.right" timestamp="1609837779998">
+    <state width="1238" height="176" key="GridCell.Tab.0.left/0.23.1280.711@0.23.1280.711" timestamp="1609853864818" />
+    <state width="1238" height="176" key="GridCell.Tab.0.right" timestamp="1609853864819">
       <screen x="0" y="23" width="1280" height="711" />
     </state>
-    <state width="1238" height="176" key="GridCell.Tab.0.right/0.23.1280.711@0.23.1280.711" timestamp="1609837779998" />
+    <state width="1238" height="176" key="GridCell.Tab.0.right/0.23.1280.711@0.23.1280.711" timestamp="1609853864819" />
     <state x="83" y="23" width="982" height="711" key="SettingsEditor" timestamp="1609766561827">
       <screen x="0" y="23" width="1280" height="711" />
     </state>
     <state x="83" y="23" width="982" height="711" key="SettingsEditor/0.23.1280.711@0.23.1280.711" timestamp="1609766561827" />
+    <state x="243" y="120" key="Vcs.Push.Dialog.v2" timestamp="1609849749139">
+      <screen x="0" y="23" width="1280" height="711" />
+    </state>
+    <state x="243" y="120" key="Vcs.Push.Dialog.v2/0.23.1280.711@0.23.1280.711" timestamp="1609849749138" />
     <state x="499" y="276" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1609155857262">
       <screen x="0" y="23" width="1280" height="711" />
     </state>
