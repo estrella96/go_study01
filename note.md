@@ -243,6 +243,135 @@ func innerFunc(){
     文件保存
  
  
-## 3 并发编程
+## 3 代码规范 
 
-### 3.1  
+### 3.1 一般规范
+
+- Comment Sentences
+    声明的注释是句子
+    以事物开头.结尾
+    ```go
+    // A Request represents a request to run a command.
+    type Request struct { ...
+    
+    // Encode writes the JSON encoding of req to w.
+    func Encode(w io.Writer, req *Request) { ...
+    ```
+- Declaring Empty Slices 声明空的切片
+    `var t []string` 可以避免分配内存
+    不用
+    `t := []string{}`
+- Doc Comments 文档注释
+    1. 所有顶级的导出名称都应具有文档注释，非平凡的未导出类型或函数声明也应具有文档注释
+- Don't Panic
+    对于正常的错误处理不要用panic
+    使用多个error和返回值
+- Error Strings
+    错误字符串小写 不需要以标点符号结束
+    因为错误信息可能在句子中间打印
+- Handle Errors 
+    不要用_丢弃错误
+    处理错误并返回
+    或者必须情况下panic
+- Imports
+    成组分段
+    ```go
+    package main
+    
+    import (
+        "fmt"
+        "hash/adler32"
+        "os"
+        
+        "appengine/foo"
+        "appengine/user"
+        
+        "code.google.com/p/x/y"
+        "github.com/foo/bar"
+    )
+    ```
+- Import Dot
+    import . 可以用在tests中，不能是在被测试的包中
+    ```go
+    package foo_test
+    
+    import (
+        "bar/testutil" // also imports "foo"
+        . "foo"
+    )
+    ```
+- Indent Error Flow
+    使普通代码路径保持最小缩进，并缩进错误处理，并首先对其进行处理。 
+    ```go
+    if err != nil {
+        // error handling
+        return // or continue, etc.
+    }
+    // normal code
+    ```
+- Initialisms
+    缩写词大写 ServeHTTP URL appleID
+- Line Length
+    不限制 但避免太长的行
+- Mixed Caps
+    未导出的常量maxLength
+- Named Result Parameters 结果参数命名
+    返回值较少可以不声明类型
+    ```go
+    func (n *Node) Parent1() *Node
+    func (n *Node) Parent2() (*Node, error)
+    ```
+- Package Comments    
+    在包上面 无空行
+- Package Names
+    在包中可以省略包名
+- Pass Values 传参
+    不要仅将指针作为函数参数传递
+    如果函数在整个过程中仅将其参数x称为* x，则该参数不应为指针。 
+    常见的实例包括传递指向字符串的指针（* string）或指向接口值的指针（* io.Reader，值本身都是固定大小，可以直接传递
+    此建议不适用于大型结构，甚至不适用于可能增长的小型结构。
+- Receiver Names
+    方法接收变量
+    一或两个单词缩写 如c cl 为Client
+    不要使用me this self
+- Receiver Type
+    值还是指针接收 value pointer
+    1. receiver是map,func,chan 不使用pointer
+    2. slice方法没有重新切片 不使用pointer
+    3. 方法改变了receiver 使用pointer
+    4. 包含同步片段的结构 使用pointer
+    5. 大的struct或array pointer更有效
+- Useful Test Failures
+    test要显示有用的错误信息    
+- Variable Names
+    变量名要短
+
+### 3.2 常见规范
+
+- Package
+    1. 若干.go文件
+    2. go文件内部顺序
+        包声明
+        包导入
+        常量定义
+        全局变量定义
+        类型定义
+        方法/函数定义
+    2. import规范
+        除测试怒允许使用 . 
+        不允许使用别名，同时导入2个相同的包名除外
+        使用小括号 包名要另起一行
+        标准库 程序内部 第三方 顺序引入包
+- Naming
+    package名和目录名保持一致，简短有意义，小写，单数
+    变量、函数、结构体、接口统一采用驼峰法则，避免使用_
+    源码文件命名，小写
+    常量声明 驼峰法 需要导出的首字母大写 不需要导出的首字母小写
+    专有名词 全部大写或全部小写
+- Error Handling
+    错误处理或向上抛出
+    除了影响系统启动等关键步骤可以panic外 其他避免使用panic
+    避免用_忽略错误
+    统一处理错误 
+- Project Layout
+          

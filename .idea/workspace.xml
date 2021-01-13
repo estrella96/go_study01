@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d03a5e-5af6-45e8-8667-1d094bc98e64" name="Default Changelist" comment="web+file upload">
+    <list default="true" id="42d03a5e-5af6-45e8-8667-1d094bc98e64" name="Default Changelist" comment="基础语法流程控制">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
     </list>
@@ -59,7 +59,7 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -122,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609849742462</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="基础语法流程控制">
+      <created>1610025135996</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610025135996</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +149,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="web+file upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="web+file upload" />
+    <MESSAGE value="基础语法流程控制" />
+    <option name="LAST_COMMIT_MESSAGE" value="基础语法流程控制" />
   </component>
   <component name="WindowStateProjectService">
     <state x="167" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609837099132">
@@ -177,14 +185,14 @@
       <screen x="0" y="23" width="1280" height="711" />
     </state>
     <state width="1238" height="176" key="GridCell.Tab.0.right/0.23.1280.711@0.23.1280.711" timestamp="1609853864819" />
-    <state x="83" y="23" width="982" height="711" key="SettingsEditor" timestamp="1609766561827">
+    <state x="83" y="23" width="982" height="711" key="SettingsEditor" timestamp="1610542244489">
       <screen x="0" y="23" width="1280" height="711" />
     </state>
-    <state x="83" y="23" width="982" height="711" key="SettingsEditor/0.23.1280.711@0.23.1280.711" timestamp="1609766561827" />
-    <state x="243" y="120" key="Vcs.Push.Dialog.v2" timestamp="1609849749139">
+    <state x="83" y="23" width="982" height="711" key="SettingsEditor/0.23.1280.711@0.23.1280.711" timestamp="1610542244489" />
+    <state x="243" y="120" key="Vcs.Push.Dialog.v2" timestamp="1610543478388">
       <screen x="0" y="23" width="1280" height="711" />
     </state>
-    <state x="243" y="120" key="Vcs.Push.Dialog.v2/0.23.1280.711@0.23.1280.711" timestamp="1609849749138" />
+    <state x="243" y="120" key="Vcs.Push.Dialog.v2/0.23.1280.711@0.23.1280.711" timestamp="1610543478388" />
     <state x="499" y="276" key="com.goide.refactor.move.GoMoveDeclarationDialog" timestamp="1609155857262">
       <screen x="0" y="23" width="1280" height="711" />
     </state>
